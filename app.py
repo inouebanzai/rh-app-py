@@ -52,9 +52,9 @@ def delete_all_logs():
 
 # 項目表示用
 title = "井上への祈り管理表"
-name1 = "食品名"
-name2 = "消費期限"
-memo = "メモ"
+name1 = "担当者"
+name2 = "信仰度"
+memo = "井上からのコメント"
 
 @app.route("/")
 def index():
